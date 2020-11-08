@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+$primary-font: 'Arial';
+$title-font: 'Major Mono Display', monospace;
+
+body {
+  background: lightgray;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.header-large {
+  width: 500px;
+  background: white;
+  // text-align: center;
+  font-family: $primary-font;
+  width: 100vw;
+  // height: 100px;
+  box-sizing: border-box;
+  // display: flex;
+  // justify-content: space-evenly;
+  // align-items: center;
+  font-size: 3rem;
+
+  .inner {
+    width: 650px;
+    margin: 0 auto;
+
+  }
+
+  .subheadings {
+    display: flex;
+    align-items: center;
+  }
+
+  .bar {
+    background: black;
+    height: 4px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  h1 {
+    font-family: $title-font;
+    &:hover {
+      color: purple;
+      cursor: pointer;
+    }
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 100;
+    margin-left: 10px;
+    &:hover {
+      color: purple;
+      cursor: pointer;
+    }
+  }
+}
