@@ -8,7 +8,6 @@ export const Main = () => {
         <div className='page'>
             <br />
             <br />
-            {/* <br /> */}
             <div className="parent">
                 <img id='fred' src={fred} alt='headshot' />
                 <div className="flex2">

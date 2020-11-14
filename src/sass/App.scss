@@ -15,11 +15,12 @@ h1, h2 {
 }
 
 .header-large {
-  width: 500px;
   background: white;
+  // background: whitesmoke;
   font-family: $primary-font;
   width: 100vw;
   box-sizing: border-box;
+  padding: 10px 0;
 
   .inner {
     width: 460px;
@@ -51,9 +52,6 @@ h1, h2 {
     font-size: 5rem;
     letter-spacing: -5px;
     word-spacing: -25px;
-    &:hover {
-      cursor: pointer;
-    }
   }
 
   h2 {
